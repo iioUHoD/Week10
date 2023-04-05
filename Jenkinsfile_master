@@ -16,7 +16,7 @@ pipeline {
                 steps {
                     dir('Week10') {
                         echo "Current path is ${pwd()}"
-                        echo "hello"
+                        echo "hello i'm here"
                         sh "docker-compose build"
                     }
                 }
