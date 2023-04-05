@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    image: chanpong/my-backend_image:1.0
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    image: chanpong/my-frontend_image:1.0
